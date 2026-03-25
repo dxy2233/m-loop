@@ -88,8 +88,8 @@ async function main() {
   }
 
   // Define the start time using a cron-like pattern.
-  const startTime = '40 11 * * *';
-  console.log(`Script initialized. Waiting to start playback every day at 11:40.`);
+  const startTime = '25 7 * * *';
+  console.log(`Script initialized. Waiting to start playback every day at 07:25.`);
 
   schedule.scheduleJob(startTime, () => {
     if (isPlaybackActive) {
